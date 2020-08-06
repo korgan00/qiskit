@@ -1,0 +1,53 @@
+// =============================================================================
+// Shared Qiskit Styles
+// =============================================================================
+
+
+@import "./variables";
+
+
+svg.mathjax { display: inline-block; }
+
+.juniper-cell, code, pre, x-step code {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.juniper-cell {
+  border: none;
+  font-size: 15px;
+  margin: 1.5em 0;
+  line-height: 1.5;
+  .CodeMirror { padding: 16px 14px; }
+  x-step & pre { margin: 0; }
+}
+
+.juniper-input {
+  background-color: #F2F4F8;
+  border: 1px solid #DDE1E6;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+}
+
+.juniper-output {
+  background: white;
+  border: 1px solid #DDE1E6;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  padding: 16px;
+  color: inherit;
+}
+
+[dir] .juniper-button {
+  background: darken(#DDE1E6, 8%);
+  border-radius: 0 4px 0 0;
+  color: #222;
+  cursor: pointer;
+  display: block;
+  padding: 6px 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: background .2s;
+  z-index: 100;
+  &:hover, &:focus { background: darken(#DDE1E6, 22%); }
+}
