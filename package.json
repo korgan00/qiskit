@@ -21,7 +21,7 @@
     "@mathigon/dev-server": "0.5.1",
     "@types/d3": "5.7.2",
     "@types/topojson": "3.2.2",
-    "three": "0.110.0"
+    "three": "0.119.1"
   },
   "devDependencies": {
     "@mathigon/parser": "0.5.3",
