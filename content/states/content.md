@@ -28,6 +28,17 @@ Since we will be using Qiskit, our Python-based framework for quantum computing,
 
 ## 1.2 The Atoms of Computation
 
+> id: atoms-of-computation-1
+
+Events around the world [next](action:nextPoint())
+
+    div.events-world-component
+        canvas#glcanvas(width=640 height=480)
+        div#LocationData.location-data.hidden
+            span
+            p
+
+
 Programming a quantum computer is now something that anyone can do in the comfort of their own home.
 
 But what to create? What is a quantum program anyway? In fact, what is a quantum computer?
